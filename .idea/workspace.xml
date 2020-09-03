@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3aee901e-0812-4cbe-9e82-5fe047328246" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gzU6UG4yityUZCBfSd1dFQt4qO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_01_quich_start/src/main/resources/com/neusoft/dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xwl\Documents\GitHub\Java9_ssm_learn\mybatisday01_01_quich_start\src\main\resources\com\neusoft\dao" />
+      <recent name="C:\Users\xwl\Documents\GitHub\Java9_ssm_learn\mybatisday01_01_quich_start\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyBatisTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_01_quich_start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.neusoft.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.test.MyBatisTest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest1.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aee901e-0812-4cbe-9e82-5fe047328246" name="Default Changelist" comment="" />
+      <created>1599116738435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599116738435</updated>
+      <workItem from="1599116742430" duration="3020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="663" y="89" key="#Project_Structure" timestamp="1599118374190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="89" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1599118374190" />
+    <state x="727" y="185" key="FileChooserDialogImpl" timestamp="1599116879888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="727" y="185" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599116879887" />
+    <state x="540" y="72" key="SettingsEditor" timestamp="1599117093817">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="72" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599117093817" />
+    <state x="695" y="40" width="841" height="780" key="new project wizard" timestamp="1599116992594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="695" y="40" width="841" height="780" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599116992594" />
+  </component>
+</project>
