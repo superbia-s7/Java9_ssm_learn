@@ -1,12 +1,13 @@
 package com.neusoft.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * @Author: xuwenlong
  * @Date: 2020/9/3 15:19
  */
-public class User {
+public class User implements Serializable {
     private Integer id;
     private String username;
     private Date birthday;

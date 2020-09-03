@@ -36,7 +36,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -92,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599116738435</updated>
-      <workItem from="1599116742430" duration="3020000" />
+      <workItem from="1599116742430" duration="4235000" />
     </task>
     <servers />
   </component>
@@ -108,10 +108,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="727" y="185" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599116879887" />
-    <state x="540" y="72" key="SettingsEditor" timestamp="1599117093817">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1599120323336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="72" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599117093817" />
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599120323336" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1599120323336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599120323336" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1599120323336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599120323336" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1599120323336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599120323336" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1599120442772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599120442772" />
     <state x="695" y="40" width="841" height="780" key="new project wizard" timestamp="1599116992594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
