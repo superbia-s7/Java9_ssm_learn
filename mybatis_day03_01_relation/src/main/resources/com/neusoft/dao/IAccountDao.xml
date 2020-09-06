@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IAccountDao">
+
+<!--    配置查询结果的列名和实体属性名的对应关系-->
+<!--    id 给定一个唯一标识， 是给select标签引用用的-->
+<!--    type是指 实体类的全限定类名-->
+    <resultMap id="accountUserMap" type="account">
+<!--        id标签 主键字段的对应-->
+
+        <id property="id" column="ID"></id>
+        <result property="uid" column="UID"></result>
+        <result property="money" column="MONEY"></result>
+
+        <!--        指定一对一映射关系， 配置user的内容-->
+        <association property="user" column="uid" javaType="user">
+            <id property="userId" column="id"></id>
+            <result property="userName" column="username"></result>
+            <result property="userAddress" column="address"></result>
+            <result property="userSex" column="sex"></result>
+            <result property="userBirthday" column="birthday"></result>
+        </association>
+    </resultMap>
+    <!--    查询所有-->
+    <select id="findAll" resultMap="accountUserMap">
+        SELECT  u.*, a.ID AS aid,a.uid, a.MONEY from account a, user u where u.id = a.uid
+    </select>
+
+    <!--    查询所有 带用户名和地址-->
+    <select id="findAllAccout" resultType="accountuser">
+        SELECT  a.*, u.username, u.address  from account a, user u where u.id = a.uid
+    </select>
+</mapper>
