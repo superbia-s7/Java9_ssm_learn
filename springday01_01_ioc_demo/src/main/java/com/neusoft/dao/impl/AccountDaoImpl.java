@@ -16,10 +16,6 @@ import java.util.List;
 public class AccountDaoImpl implements IAccountDao {
     private QueryRunner runner;
 
-    public QueryRunner getRunner() {
-        return runner;
-    }
-
     public void setRunner(QueryRunner runner) {
         this.runner = runner;
     }
@@ -40,7 +36,7 @@ public class AccountDaoImpl implements IAccountDao {
     public Account findAccountById(Integer id) {
         try {
             String sql="select * from account where id = ?";
-            return runner.query(sql,new BeanHandler<Account>(Account.class));
+            return runner.query(sql,new BeanHandler<Account>(Account.class),id);
         } catch (SQLException e) {
             throw  new RuntimeException(e);
         }
@@ -60,8 +56,8 @@ public class AccountDaoImpl implements IAccountDao {
     @Override
     public void updateAccount(Account account) {
         try {
-            String sql="update account set name = ?,money = ?";
-            runner.update(sql,account.getName(),account.getMoney());
+            String sql="update account set name= ? , money = ? where id=?";
+            runner.update(sql,account.getName(),account.getMoney(),account.getId());
         } catch (SQLException e) {
             throw  new RuntimeException(e);
         }
@@ -76,4 +72,5 @@ public class AccountDaoImpl implements IAccountDao {
             throw  new RuntimeException(e);
         }
     }
+
 }
